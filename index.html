@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Privet School</title>
+  </head>
+  <body>
+    <!-- ************************************************************
+    ************************************************************
+    ************************************************************ -->
+    <!-- navbar page -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#" id="home-page"
+        ><img class="logo" src="privet_school_logo.png" alt="school logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link cour-page" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link stud-page" href="#">Students</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link train-page" href="#">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ass-page" href="#">Assignments</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- ***************************************************************
+      ***************************************************************
+      *************************************************************** -->
+      <!-- the home page -->
+
+      <div class="home-page">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 field">
+            <div class="card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Courses</title>
+                <rect
+                  x="32"
+                  y="96"
+                  width="64"
+                  height="368"
+                  rx="16"
+                  ry="16"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                  d="M112 224h128M112 400h128"
+                />
+                <rect
+                  x="112"
+                  y="160"
+                  width="128"
+                  height="304"
+                  rx="16"
+                  ry="16"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <rect
+                  x="256"
+                  y="48"
+                  width="96"
+                  height="416"
+                  rx="16"
+                  ry="16"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <path
+                  d="M422.46 96.11l-40.4 4.25c-11.12 1.17-19.18 11.57-17.93 23.1l34.92 321.59c1.26 11.53 11.37 20 22.49 18.84l40.4-4.25c11.12-1.17 19.18-11.57 17.93-23.1L445 115c-1.31-11.58-11.42-20.06-22.54-18.89z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title">Courses</h5>
+                <p class="card-text">
+                  Choose to add, edit, delete and read courses.
+                </p>
+                <a href="#" class="btn btn-primary cour-page">Go to courses</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 field">
+            <div class="card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Students</title>
+                <path
+                  d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <path
+                  d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                />
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title">Students</h5>
+                <p class="card-text">
+                  Choose to add, edit, delete and read students.
+                </p>
+                <a href="#" class="btn btn-primary stud-page">Go to students</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 field">
+            <div class="card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Trainers</title>
+                <path
+                  d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"
+                />
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title">Trainers</h5>
+                <p class="card-text">
+                  Choose to add, edit, delete and read trainers.
+                </p>
+                <a href="#" class="btn btn-primary train-page"
+                  >Go to trainers</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 field">
+            <div class="card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Assignments</title>
+                <path
+                  d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <path
+                  d="M256 56v120a32 32 0 0032 32h120M176 288h160M176 368h160"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title">Assignments</h5>
+                <p class="card-text">
+                  Choose to add, edit, delete and read assignments.
+                </p>
+                <a href="#" class="btn btn-primary ass-page"
+                  >Go to assignments</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- *******************************************************************
+      *******************************************************************
+      ******************************************************************* -->
+      <!-- the courses page -->
+      <div class="courses-page not-display">
+        <form
+        action=""
+          class="p-3 mb-2 bg-dark text-white not-display"
+          id="my-course-form"
+        >
+          <h1 id="form-title">Course Form</h1>
+          <div id="course-title-validation" class="form-group">
+            <label for="course-title">Course Title</label>
+            <input
+              type="text"
+              class="form-control"
+              id="course-title"
+              placeholder="Course Title"
+            
+            />
+            <small id="sm-course-title"></small>
+          </div>
+          <div id="course-language-validation" class="form-group">
+            <label for="language">Course Language</label>
+            <input
+              type="text"
+              class="form-control"
+              id="language"
+              placeholder="Course Language"
+            />
+            <small id="sm-course-language"></small>
+          </div>
+          <div id="course-type-validation" class="form-group">
+            <label for="type">Course Type</label>
+            <input
+              type="text"
+              class="form-control"
+              id="type"
+              placeholder="Course Type"
+            />
+            <small id="sm-course-type"></small>
+          </div>
+          <div class="form-group">
+            <label for="courset-description">Course Description</label>
+            <textarea
+              class="form-control"
+              id="course-description"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-primary submit-course"
+            id="submit-course-form"
+          >
+            Submit
+          </button>
+        </form>
+
+        <h1 id="table-title">Courses</h1>
+        <a
+          id="add-course-button"
+          href="#"
+          class="btn btn-secondary btn-lg btn-block add-button"
+          >Add New Course</a
+        >
+        <table class="table table-striped table-dark" id="course-list">
+          <thead>
+            <tr>
+              <th scope="col">Code</th>
+              <th scope="col">Language</th>
+              <th scope="col">Type</th>
+              <th scope="col">Description</th>
+              <th scope="col">Students</th>
+              <th scope="col">Trainers</th>
+              <th scope="col">Assignments</th>
+              <th scope="col">Assignments per Students</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody class="body-table" id="course-table">
+            <!-- description-modal -->
+            <div id="myModal-description" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close-description">&times;</span>
+                <h4>Course Description</h1><br>
+                <p id="modal-text"></p>
+              </div>
+            </div>
+
+            <!-- course-students-modal -->
+            <div id="myModal-students" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close-student">&times;</span>
+                <h4 id="students-modal-header"></h1><br>
+                <ol id="course-students-list">
+
+                </ol>
+              </div>
+            </div>
+
+            <!-- course-trainers-modal -->
+            <div id="myModal-trainers" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close-trainer">&times;</span>
+                <h4 id="trainers-modal-header"></h1><br>
+                  <ol id="course-trainers-list">
+
+                  </ol>
+              </div>
+            </div>
+
+            <!-- course-assignments-modal -->
+            <div id="myModal-assignments" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close-assignemnt">&times;</span>
+                <h4 id="assignments-modal-header"></h1><br>
+                  <ol id="course-assignments-list">
+
+                  </ol>
+              </div>
+            </div>
+
+             <!-- course-students-assignments-modal -->
+             <div id="myModal-assignments-per-students" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close-assignemnts-per-students">&times;</span>
+                <h4 id="assignments-students-modal-header"></h1><br>
+                  <ol id="course-assignments-per-students-list">
+
+                  </ol>
+              </div>
+            </div>
+
+            
+          </tbody>
+        </table>
+      </div>
+      <!-- ***************************************************************
+      ***************************************************************
+      *************************************************************** -->
+      <!-- the student page -->
+      <div class="students-page not-display">
+        <form
+          class="p-3 mb-2 bg-dark text-white not-display"
+          id="my-student-form"
+        >
+          <h1 id="form-title">Student Form</h1>
+          <div id="student-fname-validation" class="form-group">
+            <label for="stud-firstname">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="stud-firstname"
+              placeholder="First Name"
+            />
+            <small id="sm-student-fname"></small>
+          </div>
+          <div id="student-lname-validation" class="form-group">
+            <label for="stud-lastname">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="stud-lastname"
+              placeholder="Last Name"
+            />
+            <small id="sm-student-lname"></small>
+          </div>
+          <div id="student-bdate-validation" class="form-group">
+            <label for="stud-birtdate">Date Of Birth</label>
+            <input type="date" class="form-control" id="stud-birtdate" />
+            <small id="sm-student-bdate"></small>
+          </div>
+          <div class="form-group">
+            <label for="stud-course">Courses</label>
+            <select
+              multiple
+              class="form-control course-select"
+              id="stud-course"
+            >
+              
+            </select>
+            
+          </div>
+          <div id="student-tuitions-validation" class="form-group">
+            <label for="stud-tuitions">Total Tuition Fees</label>
+            <input type="number" class="form-control" id="stud-tuitions" />
+            <small id="sm-student-tuitions"></small>
+          </div>
+
+          <button
+            id="submit-student-form"
+            type="submit"
+            class="btn btn-primary submit-student"
+          >
+            Submit
+          </button>
+        </form>
+
+        <h1 id="table-title">Students</h1>
+
+        <a
+          id="add-student-button"
+          href="#"
+          class="btn btn-secondary btn-lg btn-block add-button"
+          >Add New Student</a
+        >
+       
+        <table class="table table-striped table-dark" id="student-list">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th class="student-table-head" data-column= 1 data-order = "desc" scope="col">First</th>
+              <th class="student-table-head" data-column= 2 data-order = "desc" scope="col">Last</th>
+              <th class="student-table-head" data-column= 3 data-order = "desc"scope="col">Date OF Birth</th>
+              <th scope="col">Total Tuitions</th>
+              <th scope="col">Courses</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody class="body-table" id="student-table">
+            
+          </tbody>
+        </table>
+      </div>
+      <!-- *****************************************************************
+      *****************************************************************
+      ***************************************************************** -->
+      <!-- the trainers page -->
+      <div class="trainers-page not-display">
+        <form class="p-3 mb-2 bg-dark text-white not-display" id="my-trainer-form">
+          <h1 id="form-title">Trainer Form</h1>
+          <div id="trainer-fname-validation" class="form-group">
+            <label for="trainer-firstname">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="trainer-firstname"
+              placeholder="First Name"
+            />
+            <small id="sm-trainer-fname"></small>
+          </div>
+          <div id="trainer-lname-validation" class="form-group">
+            <label for="trainer-lastname">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="trainer-lastname"
+              placeholder="Last Name"
+            />
+            <small id="sm-trainer-lname"></small>
+          </div>
+          <div id="trainer-subject-validation" class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              class="form-control"
+              id="subject"
+              placeholder="Subject"
+            />
+            <small id="sm-trainer-subject"></small>
+          </div>
+          <div id="trainer-course-validation" class="form-group">
+            <label for="trainer-course">Courses</label>
+            <select
+              multiple
+              class="form-control course-select"
+              id="trainer-course"
+            >
+            </select>
+            <small id="sm-trainer-course"></small>
+          </div>
+          <button id="submit-trainer-form" type="submit" class="btn btn-primary submit-trainer">Submit</button>
+        </form>
+        <h1 id="table-title">Trainers</h1>
+        <a id="add-trainer-button" href="#" class="btn btn-secondary btn-lg btn-block add-button"
+          >Add New Trainer</a
+        >
+        <table class="table table-striped table-dark" id="trainer-list">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th class="trainer-table-head" data-column= 1 data-order = "desc" scope="col">Firstname</th>
+              <th class="trainer-table-head" data-column= 2 data-order = "desc" scope="col">Lastname</th>
+              <th scope="col">Subject</th>
+              <th scope="col">Courses</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          
+          <tbody class="body-table" id="trainer-table">
+            
+          </tbody>
+        </table>
+      </div>
+      <!-- ***************************************************************
+      ***************************************************************
+      *************************************************************** -->
+      <!-- the assignments page -->
+      <div class="assignments-page not-display">
+        <form class="p-3 mb-2 bg-dark text-white not-display" id="my-assignment-form">
+          <h1 id="form-title">Assignment Form</h1>
+          <div id="assignment-title-validation" class="form-group">
+            <label for="title">Title</label>
+            <input
+              type="text"
+              class="form-control"
+              id="title"
+              placeholder="Title"
+            />
+            <small id="sm-assignemnt-title"></small>
+          </div>
+          <div id="assignment-subDate-validation" class="form-group">
+            <label for="submition_date">Date of Submition</label>
+            <input type="date" class="form-control" id="submition_date" />
+            <small id="sm-subDate-title"></small>
+          </div>
+          <div id="assignment-codeMark-validation" class="form-group">
+            <label for="code-mark">Mark of the Submitted Code</label>
+            <input type="number" class="form-control" id="code-mark" />
+            <small id="sm-codeMark-title"></small>
+          </div>
+          <div id="assignment-oralMark-validation" class="form-group">
+            <label for="oral-mark">Mark for the Oral Mark</label>
+            <input type="number" class="form-control" id="oral-mark" />
+            <small id="sm-oralMark-title"></small>
+          </div>
+          <div class="form-group">
+            <label for="assignment-description">Description</label>
+            <textarea
+              class="form-control"
+              id="assignment-description"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="assignment-course">Courses</label>
+            <select
+              multiple
+              class="form-control course-select"
+              id="assignment-course"
+            >
+            </select>
+          </div>
+
+          <button id="submit-assignment-form" type="submit" class="btn btn-primary submit-assignment">Submit</button>
+        </form>
+
+        <h1 id="table-title">Assignments</h1>
+        <a id="add-assignment-button" href="#" class="btn btn-secondary btn-lg btn-block add-button"
+          >Add New Assignment</a
+        >
+        <table class="table table-striped table-dark" id="assignmemnt-list">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th class="assignment-table-head" data-column= 1 data-order = "desc" scope="col">Title</th>
+              <th class="assignment-table-head" data-column= 2 data-order = "desc" scope="col">Publicatio Date</th>
+              <th class="assignment-table-head" data-column= 3 data-order = "desc" scope="col">Submition Date</th>
+              <th scope="col">Code Mark</th>
+              <th scope="col">Oral Mark</th>
+              <th scope="col">description</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody class="body-table" id="assignment-table">
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
